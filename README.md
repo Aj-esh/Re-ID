@@ -12,8 +12,8 @@ This project uses YOLOv11 for object detection and a custom DeepSORT-inspired me
 - Ultralytics
 - OpenCV
 - NumPy
-- torch (PyTorch)
-- deep\_sort\_realtime (optional, for DeepSort-style tracking)
+- torch 
+- deep_sort_realtime
 
 Install dependencies manually:
 
