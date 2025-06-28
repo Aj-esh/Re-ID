@@ -9,7 +9,7 @@ This project uses YOLOv11 for object detection and a custom DeepSORT-inspired me
 ### Requirements
 
 - Python 3.8+
-- [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
+- Ultralytics
 - OpenCV
 - NumPy
 - torch (PyTorch)
