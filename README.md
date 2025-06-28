@@ -58,7 +58,7 @@ Each video frame is processed in real-time, and detected players are visually an
 
 ---
 
-## ⚒️ Notes
+##  Notes
 
 - If using in Jupyter or Colab, replace `cv2.imshow()` with `matplotlib` for inline rendering.
 - The tracker stores "inactive" players and re-identifies them using HSV histogram matching, which compares the color distributions of detected player regions. Incorporating DeepSORT embeddings using a CNN-based feature extractor. These embeddings capture fine-grained visual features like texture, clothing patterns, and color signatures in a high-dimensional space. This embedding-based approach significantly enhances identity re-association, especially under occlusion, changing poses, or light, providing more accurate and stable tracking compared to color histogram methods alone.
