@@ -24,7 +24,8 @@ pip install ultralytics opencv-python numpy torch
 ### Setup
 
 1. Clone this repository or download the code.
-2. Place your YOLOv11 `.pt` model file in the working directory.
+2. Place your video `.mp4` file in the working directory, else provide the path.
+2. Place your YOLOv11 `.pt` model file in the working directory, else provide the path.
 3. Run the tracking pipeline on your video:
 
 ```python
